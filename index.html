@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Users</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+        </div>
+    </div>
+    <button class="users__btn" onclick="showModal()">Add User</button>
+
+    <div class="container">
+        <div class="modal__wrapper">
+            <p class="modal__title">Formani to'ldiring</p>
+            <form class="form" action="">
+                <p class="info">Your photo:</p>
+                <input class="form__image" type="url" placeholder="URL Image" required>
+                <p class="info">Full name:</p>
+                <input class="form__name" type="text" placeholder="Fname and Lname" required>
+                <p class="info">Your job:</p>
+                <input class="form__profession" type="text" placeholder="Your profession" required>
+                <p class="info">Where are you study?:</p>
+                <input class="form__educate" type="text" placeholder="Study" required>
+                <div class="action">
+                    <button class="create__btn">Create</button>
+                    <button class="close__btn" onclick="closeModal()">Exit</button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+    </div>
+    <footer>
+        <p>©Barcha huquqlar himoyalangan.</p>
+        <p>
+            <a href="https://www.instagram.com/oktmv23/profilecard/?igsh=YXcyODRrc3ZxbnAw"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="https://t.me/@oktmv23"><i class="fa-brands fa-telegram"></i> Telegram</a>
+        </p>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
